@@ -93,7 +93,7 @@ public class TransferService {
     public StatusResponse updateClearingMargin(String id, ClearingMarginRequest request) throws Exception {
 
 
-        cashiRepository.deleteCashiById(id);    //  先做刪小表，才不會有大表串聯小表無法篩除問題
+        cashiRepository.deleteCashiById(id);    //  先做刪小表，才不會有大表串聯小表無法篩除問題(刪除小表是 為了解決原本有較多資料，但更改後變少資料)
 
         Mgni mgni = mgniRepository.findMgniById(id);
 
