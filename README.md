@@ -1,9 +1,7 @@
 # Spring boot 1
 
-## Sprint 1
-
-### 閱讀技術文件
-#### 目標
+## 閱讀技術文件
+### 目標
 了解未來專案上所應用到技術，列表只列出不在任務卡上的內容
 
 [技術文件模板](https://hackmd.io/@IDdlPCCwQoeX-9DvmEbLyw/S1XwG-lfj)
@@ -18,8 +16,8 @@
 - [ ] 什麼是站台，什麼又是 HTTP
 - [ ] 基礎網路知識補充
 
-### JSON、XML、電文觀念
-#### 目標
+## JSON、XML、電文觀念
+### 目標
 了解 Web 前後端的概念、前後端分離的架構，並認識常見的資料格式 (e.g. JSON, XML) ，因其會用來做前後端的資料傳遞
 
 [JSON、XML、電文觀念](https://hackmd.io/@IDdlPCCwQoeX-9DvmEbLyw/rJsSJ90Zi)
@@ -30,7 +28,7 @@
 - [ ] 了解什麼是 JSON
 - [ ] 了解什麼是 XML
 
-### Java 例外處理
+## Java 例外處理
 
 [Global Exception Handler in Spring Boot](https://hackmd.io/@IDdlPCCwQoeX-9DvmEbLyw/HJIc1cRWo)
 
@@ -39,7 +37,7 @@
 - [ ] `@RestControllerAdvice`
 - [ ] `@ExceptionHandler`
 
-### Spring Data JPA Dynamic Query
+## Spring Data JPA Dynamic Query
 
 [Spring data jpa 的使用與詳解：複雜動態查詢及分頁，排序](https://www.gushiciku.cn/pl/pTm9/zh-tw)
 
@@ -49,7 +47,7 @@
 - [ ] Criteria
 - [ ] 分頁、排序
 
-### Spring Data JPA Relationship
+## Spring Data JPA Relationship
 
 1. [JPA one to one](https://attacomsian.com/blog/spring-data-jpa-one-to-one-mapping)
 2. [JPA one to many](https://attacomsian.com/blog/spring-data-jpa-one-to-many-mapping)
@@ -63,7 +61,7 @@
 - [ ] `@ManyToMany`
 - [ ] lazy / eager
 
-### Sprint 1 實作
+## Sprint 1 實作
 - [x] Restful API (CRUD)
 - [x] 例外處理
 - [x] JPA Dynamic Query
