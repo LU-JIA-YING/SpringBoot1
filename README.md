@@ -62,6 +62,7 @@
 - [ ] lazy / eager
 
 ## Sprint 1 實作
+新增、修改、刪除時，Mgni跟Cashi會連動
 - [x] Restful API (CRUD)
 - [x] 例外處理
 - [x] JPA Dynamic Query
