@@ -39,7 +39,6 @@ public class TransferController {
 
     //  查詢 API 接收 Json And Xml 格式(Find All Mgni)
     @GetMapping(value = "/findAllMgniJsonAndXml", produces = {"application/xml","application/json"})    //  第一個為預設("application/xml")
-
     public MgniResponse getAllMgnMgniJson() {
 
         MgniResponse response = transferService.getAllMgnMgni();
